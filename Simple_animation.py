@@ -1,6 +1,6 @@
-#Simple Animation with PyGame, Tamia Ogletree, 01-10-22, 2:21pm, v0.6
+#Simple Animation with PyGame, Tamia Ogletree, 01-20-22, 2:12pm, v0.7
  
- from _typeshed import ReadableBuffer
+
 import pygame,sys, time
  from pygame.locals import
 
@@ -78,4 +78,10 @@ while True:
                     b['dir'] = UPRIGHT
                 if b['rect'].right > WINDOWWIDTH: 
                     # The box has moved past the right.
-                if
+                    if b['dir'] == DOWNRIGHT:
+                        b['dir'] = DOWNLEFT
+                    if b['dir'] == UPRIGHT:
+                        b['dir'] = UPLEFT
+
+                    
+
