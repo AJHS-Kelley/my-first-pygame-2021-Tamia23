@@ -1,4 +1,4 @@
-#Simple Animation with PyGame, Tamia Ogletree, 01-20-22, 2:23pm, v0.8
+#Simple Animation with PyGame, Tamia Ogletree, 01-20-22, 2:30pm, v0.9
  
 
 import pygame,sys, time
